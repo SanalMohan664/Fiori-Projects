@@ -1,0 +1,17 @@
+{
+    "EmployeeInfo" : [
+        {
+            "Name" : "Arjun",
+            "Age"  : "23",
+            "Department" : "Python",
+            "Company" : "KL"
+        },
+        {
+            "Name" : "Shibili",
+            "Age"  : "25",
+            "Department" : "Python",
+            "Company" : "KL"
+        }
+    ]
+}
+

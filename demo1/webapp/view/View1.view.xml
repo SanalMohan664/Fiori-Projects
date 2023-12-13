@@ -1,0 +1,30 @@
+<mvc:View controllerName="com.applexus.demo1.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox id="vbox1">
+                <Input
+                    id="Input1"
+                    width="150px">
+                </Input>
+                <Input
+                    id="Input2"
+                    width="150px">
+                </Input>
+                <Input
+                    id="Input3"
+                    width="150px">
+                </Input>
+                <Input
+                    id="Input4"
+                    width="150px">
+                </Input>
+            </VBox>
+            <Button id="Button1" 
+                    text="Submit"
+					press="onPress">
+			</Button>
+       </content>
+    </Page>
+</mvc:View>

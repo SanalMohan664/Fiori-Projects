@@ -1,0 +1,36 @@
+<mvc:View controllerName="com.applexus.project3.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m"
+    xmlns:f="sap.ui.layout.form">
+    <Page id="page">
+    <VBox id="vbox">
+		<f:SimpleForm id="SimpleFormDisplay354"
+			editable="true"
+			layout="ResponsiveGridLayout"
+			title="Address"
+			adjustLabelSpan="false"
+			emptySpanXL="4"
+			emptySpanL="4"
+			emptySpanM="4"
+			emptySpanS="0"
+			columnsXL="1"
+			columnsL="1"
+			columnsM="1"
+			singleContainerFullSize="false">
+			<f:content>
+				<Label id="name" text="Name"/>
+                <Input id="nameInput"/>
+                <Label id="age" text="Age"/>
+                <Input id="ageInput"/>
+                <Label id="department" text="Department"/>
+                <Input id="departmentInput"/>
+                <Label id="company" text="Company"/>
+                <Input id="companyInput"/>
+                <Label id="nil"/>
+                <ToggleButton id="button" text="Change" width="100px"
+						press="onPress"/>
+			</f:content>
+		</f:SimpleForm>
+	</VBox>
+    </Page>
+</mvc:View>

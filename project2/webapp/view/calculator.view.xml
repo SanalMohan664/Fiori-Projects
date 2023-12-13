@@ -1,0 +1,96 @@
+<mvc:View controllerName="com.applexus.project2.controller.calculator"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+        <VBox id = "vbox">
+            <HBox id="hbox0">
+                <Input
+                id="result"
+                placeholder="Result"
+                width="100px">
+                </Input>
+                <Button id="Clear" 
+                text="C"
+                press="onPressClear"
+                type="Reject">
+                </Button>
+            </HBox>
+            <HBox id="hbox1">
+                <Button class = "number" 
+                id="1" 
+                text="1"
+                press="onPressDisplay('1')">
+                </Button>
+                <Button id="2" 
+                text="2"
+                press="onPressDisplay('2')">
+                </Button>
+                <Button id="3" 
+                text="3"
+                press="onPressDisplay('3')">
+                </Button>
+                <Button id="Add" 
+                text="+"
+                press="onPressDisplay('+')">
+                </Button>
+            </HBox>
+            <HBox id="hbox2">
+                <Button id="4" 
+                text="4"
+                press="onPressDisplay('4')">
+                </Button>
+                <Button id="5" 
+                text="5"
+                press="onPressDisplay('5')">
+                </Button>
+                <Button id="6" 
+                text="6"
+                press="onPressDisplay('6')">
+                </Button>
+                <Button id="Sub" 
+                text="-"
+                press="onPressDisplay('-')">
+                </Button>
+            </HBox>
+            <HBox id="hbox3">
+                <Button id="7" 
+                text="7"
+                press="onPressDisplay('7')">
+                </Button>
+                 <Button id="8" 
+                text="8"
+                press="onPressDisplay('8')">
+                </Button>
+                 <Button id="9" 
+                text="9"
+                press="onPressDisplay('9')">
+                </Button>
+                <Button id="Mul" 
+                text="*"
+                press="onPressDisplay('*')">
+                </Button>
+            </HBox>
+            <HBox id="hbox4">
+                <Button id="." 
+                text="."
+                press="onPressDisplay('.')">
+                </Button>
+                <Button id="0" 
+                text="0"
+                press="onPressDisplay('0')">
+                </Button>
+                <Button id="Div" 
+                text="/"
+                press="onPressDisplay('/')">
+                </Button>
+                <Button id="Res" 
+                text="="
+                press="onPressResult"
+                type="Accept">
+                </Button>
+            </HBox>
+         </VBox>
+        </content>
+    </Page>
+</mvc:View>
